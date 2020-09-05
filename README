@@ -1,0 +1,11 @@
+Proof-of-concept implementation of a rule-based matchmaker.
+
+The matchmaking library (matchmaker.py) implements both iterative
+combinatorial matchmaking and recursive matchmaking between a set of
+application parts (e.g. components, microservices) to be deployed to a
+set of resources. The matchmaking adheres to propagation, deployment,
+accumulation and skipping rules.
+
+The synthetic generator (generator.py) generates sets of application
+parts, resources and rules and can be used to benchmark the matchmaking
+performance.
